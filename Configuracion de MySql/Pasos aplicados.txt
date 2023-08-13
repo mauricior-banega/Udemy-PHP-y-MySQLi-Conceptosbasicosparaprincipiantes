@@ -1,0 +1,27 @@
+<!-- 
+    Curso de Udemy - Aprende PHP y MySQLi, conceptos básicos para principiantes.
+    Tema: Configuracion aplicada para MySql
+
+    Aclaracion de ejecucion:
+    -Para ejecutar MySQL abrimos la pagina inicial de XAMPP (dashboard). Donde tocaremos en la opc "phpMyAdmin" para acceder.
+
+    Dejare 3 imagenes donde puede verse como acceder, los errores y como queda una vez solucionado. 
+
+    http://localhost:8080/dashboard/
+
+
+    Aclaracion a problemas comunes que surgieron: 
+    
+    -Esto lo creo yo, con el fin de replicar la solucion a problemas comunes que surgen cuando se inicia a MySql. Surgieron errores de los cuales se solucionaron aplicando unas modificaciones que dejare explicitas aqui para aplicarlas siempre que sucedan.
+
+    -El link en Yotube es: https://www.youtube.com/watch?v=2mHJTv3gyDE
+    -La primera solucion que propone es la que aplico; consiste en ir al panel de XAMPP. Tocar en Config de Apache, luego de las opc tocaren phpMyAdmin (config.inc.php). Se abrira una lista de config donde en el apartado donde dice 
+    
+    $cfg['Servers'][$i]['host'] = '127.0.0.1';
+
+    -Dera ser cambiado a:
+
+    $cfg['Servers'][$i]['host'] = 'localhost:3306';
+
+    -Que es el numero de puerto que aparece al lado de MySQL cuando abrimos XAMPP. Y listo, desaparecen los errores.
+-->

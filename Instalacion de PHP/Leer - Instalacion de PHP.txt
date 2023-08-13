@@ -1,0 +1,6 @@
+ -Para poder hacer correr un archivo del tipo PHP hay primero que seguir algunos pasos que son los que llevamos a cabo en un video de Youtube.
+
+ Link: https://www.youtube.com/watch?v=nSd5Q-xmKQo
+
+ -El mismo se descargara para dejarlo disponible de ver en caso que se de la baja al link de Youtube, se llama Instalando PHP. Actualmente todos los cambios fueron realizados y quedo funcionando correctamente-.
+
